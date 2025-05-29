@@ -24,7 +24,7 @@
             AutomationProperties.AutomationId="SecondPageButton"
             Command="{Binding GoToSecond}" />
 
-                <ScrollViewer HorizontalScrollMode="Disabled" VerticalScrollBarVisibility="Auto" x:Name="RepeaterScrollViewer" Padding="4,0,4,8" Height="100">
+                <ScrollViewer HorizontalScrollMode="Disabled" VerticalScrollBarVisibility="Auto" x:Name="RepeaterScrollViewer" Padding="4,0,4,8" Height="100" Width="500">
                     <ScrollViewer.ContextFlyout>
                         <MenuFlyout x:Name="ValueFlyout">
                             <MenuFlyout.MenuFlyoutPresenterStyle>
